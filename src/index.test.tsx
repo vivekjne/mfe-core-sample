@@ -1,4 +1,4 @@
-import { Heading } from '.'
+import { Heading } from './index'
 
 describe('ExampleComponent', () => {
   it('is truthy', () => {
