@@ -1,10 +1,14 @@
 import * as React from 'react'
-import styles from './styles.module.css'
-
+import styled from 'styled-components'
 interface Props {
   text: string
 }
 
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`
+export const Heading = ({ text }: Props) => {
+  return <Title>{text}</Title>
 }

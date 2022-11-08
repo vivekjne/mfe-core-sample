@@ -1,10 +1,9 @@
 import React from 'react'
 
-import { ExampleComponent } from 'mfe-core-sample'
-import 'mfe-core-sample/dist/index.css'
+import { Heading } from 'mfe-core-sample'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Heading text='MFE SAMPLE' />
 }
 
 export default App
